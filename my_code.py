@@ -15,7 +15,16 @@ new_row_loc={"id": 3,
     "email": "alice@example.com",
     "active": True,
     "roles": "janitor"}
+
+new_row_loc2 ={"id": 4,
+    "name": "neharika",
+    "email": "alice@example.com",
+    "active": True,
+    "roles": "HR"}
+
+
 df.loc[len(df.index)]= new_row_loc
+df.loc[len(df.index)]=new_row_loc2
 print(df.head())
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)

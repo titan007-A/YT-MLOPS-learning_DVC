@@ -1,0 +1,5 @@
+id,name,email,active,roles
+1,Alice,alice@example.com,True,user
+2,Alice,alice@example.com,True,admin
+3,Sid,alice@example.com,True,janitor
+4,neharika,alice@example.com,True,HR
