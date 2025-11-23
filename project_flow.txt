@@ -1,0 +1,2 @@
+Create a git repo
+create code.py and add some code
