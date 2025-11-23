@@ -9,3 +9,9 @@ initally we were tracking data folder using git and we have to run a command for
 and let dvc track in
 now we make changes in data by adding a new row into the data
 then we will again dvc push
+we now what i have to do is using dvc to use into
+some usefull command
+dvc commit
+dvc push
+dvc pull
+dvc status
