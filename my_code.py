@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 data = {
-    "id": 1,
+    "id": [1,2],
     "name": "Alice",
     "email": "alice@example.com",
     "active": True,
@@ -10,8 +10,13 @@ data = {
 }
 
 df = pd.DataFrame(data)
-df2= pd.DataFrame(data)
-
+new_row_loc={"id": 3,
+    "name": "Sid",
+    "email": "alice@example.com",
+    "active": True,
+    "roles": "janitor"}
+df.loc[len(df.index)]= new_row_loc
+print(df.head())
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
 

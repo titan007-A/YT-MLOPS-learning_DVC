@@ -7,3 +7,5 @@ now do "mkdir S3" on terminal
 now we will have to tell dvc where our data bucket is, for this we can do,"dvc remote add -d myremote() S3(our bucket directory)" 
 initally we were tracking data folder using git and we have to run a command for git to stop tracking
 and let dvc track in
+now we make changes in data by adding a new row into the data
+then we will again dvc push
